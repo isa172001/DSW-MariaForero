@@ -1,0 +1,134 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.titulo {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu{
+    padding: 10px;
+    background-color: #005883;
+    
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ 
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    padding: 10px 95px;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    background-color: #B3B3B3;
+    
+}
+
+.inicio{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+.inicio ul, li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+
+}
+.html5{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #F47920; 
+}
+.tex{
+    margin: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+.imag{
+    height: 15% ;
+    width: 10%;
+    float: right;
+}
+.twitt{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #005883;
+}
+.en{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #005883; 
+}
+
+.tabla02 {
+    background-color: #F0B429;
+    margin: auto;
+    padding: 5px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tabla02 th, td {
+        
+        table-layout: auto;
+        border: 1px solid  #005883;
+        border-collapse: collapse;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.etiq{
+    text-align: center;
+    background-color: #005883;
+}
+.imageti{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.boton1{
+    text-align: right;
+}
+.atributo{
+    text-align: center;
+    background-color: #005883;
+}
+.imagatri{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boton2{
+    text-align: right;
+}
+.boton3{
+    text-align: right;
+}
+.boton4{
+    text-align: right;
+}
+.boton5{
+    text-align: right;
+}
+.boton6{
+    text-align: right;
+}
+.video1{
+    text-align: center; 
+}
+.autor{
+    text-align: center;
+}
+
+.enlaces{
+    color: cadetblue;
+    font-size: 10px;
+}

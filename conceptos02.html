@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1 class="titulo"> Estructura básica de HTML5 </h1>
+
+    <div class="menu">
+        <ul>
+       <li> <a href="inicio.html"> Inicio</a> </li>
+       <li><a href="conceptos01.html"> Conceptos</a> </li>
+       <li><a href="recursos01.html"> Recursos</a> </li>
+       <li><a href="autoevaluacion01.html"> Autoevaluación</a> </li>
+       <li><a href="autor.html"> Autor</a> </li>
+    </ul>
+      
+    </div>
+
+<h2>Atributos HTML5</h2>
+<p> Los elementos en HTML tienen atributos; estos son valores adicionales que configuran los elementos o ajustan su comportamiento de diversas formas para cumplir los criterios de los usuarios.</p>
+<div>
+    <table class="tabla02">
+        <thead>
+            <tr>
+                <th><h3>Atributo</h3></th><th><h3>Elementos</h3></th><th><h3>Descripcion</h3></th>
+            </tr>
+        </thead>
+        <tr>
+            <td>accept </td><td>< form >, < input > </td><td>Lista de tipos aceptados por el servidor, usualmente un tipo de archivo. </td>	
+        </tr>
+        <tr>
+            <td>  accesskey</td><td>Atributos Globales </td><td>	Define una tecla que activa o agrega un foco al elemento. </td>
+        </tr>
+        <tr>
+            <td>action </td><td>< form ></td><td>La URL del programa que procesa la información enviada en el formulario. </td>
+        </tr>
+        <tr>
+            <td> autofocus</td><td>< button>, < input>, < keygen>, < select>, < textarea> </td><td>El elemento debería recibir foco automáticamente después de haberse cargado la página. </td> 		
+        </tr>
+        <tr>
+            <td>autoplay </td><td>	< audio>, < video>	 </td><td>El audio o video debería empezar lo antes posible. </td> 
+        </tr>
+        <tr>
+            <td> bgcolor </td><td>< body>, < col>, < colgroup>, < marquee>, < table>, < tbody>, < tfoot>, < td>, < th>, < tr> </td><td>Color de fondo del elemento. </td>
+        </tr>
+        <tr>
+            <td>border </td><td>< img>, < object>, < table> </td><td>El ancho del borde.</td>		
+                
+        </tr>
+        <tr>
+            <td>buffered</td><td>	< audio>, < video> </td><td>	Contiene un rango de tiempo multimedia almacenado.  </td>
+        </tr>
+        <tr>
+            <td> checked</td><td>	< command>, < input> </td><td>	Indica que el elemento debería estar marcado al cargar la página. </td>
+        </tr>
+        <tr>
+            <td> color</td><td>< basefont>, < font>, < hr> </td><td>Este atributo establece el color de texto utilizando un nombre de color o en formato hexadecimal #RRGGBB. </td> 	
+        </tr>
+        <tr>
+            <td> datetime</td><td>	< del>, < ins>, < time></td><td>Indica la fecha y hora asociadas con el elemento. </td>	
+        </tr>
+        <tr>
+            <td> download </td><td>  < a>, < area> </td><td> Indica que el hipervínculo es utilizado para descargar un recurso.</td> 			
+        </tr>
+        <tr>
+            <td> for</td><td> 	< label>, < output></td><td>Describe elementos que pertenecen a éste. </td>	
+        </tr>
+        <tr>
+            <td> headers </td><td> < td>, < th>	</td><td> IDs de los elementos < th> que aplican a este elemento.</td> 	
+        </tr>
+        <tr>
+            <td> height </td><td>	< canvas>, < embed>, < iframe>, < img>, < input>, < object>, < video> </td><td>Especifica la altura de los elementos enumerados aquí. Para todos los demás elementos, usa la propiedad CSS height en su lugar </td> 
+        </tr>
+        <tr>
+            <td> hidden		</td><td>Atributo Global</td><td>Evita la prestación del elemento dado, manteniendo los elementos secundarios, p.ej. los elementos de script </td> 
+        </tr>
+        <tr>
+            <td>  high	</td><td>< meter> </td><td>Indica el menor valor del rango alto. </td>
+        </tr>
+        <tr>
+            <td>href </td><td>< a>, < area>, < base>, < link> </td><td>	La URL de un recurso asociado. </td> 
+        </tr>
+        <tr>
+            <td>ping </td><td> 	< a>, < area> </td><td>	Indica si se enviara un ping o notificacion a la URL del recurso cuando el usuario utlize el vinculo. </td> 
+        </tr>
+        <tr>
+            <td> required </td><td>< input>, < select>, < textarea></td><td> Indica si se requiere rellenar o no este elemento.</td> 		
+        </tr>
+        <tr>
+            <td> reversed </td><td> < ol> </td><td> Indica si la lista debe ser mostrada en orden descendente en vez de ascendente.</td> 	
+        </tr>
+        <tr>
+            <td> rowspan </td><td> 	< td>, < th ></td><td> Define el número de filas que una celda de una tabla debe abarcar</td> 	
+        </tr>
+        <tr>
+            <td> src </td><td> < audio>, < embed>, < iframe>, < img>, < input>, < source>, < track>, < video></td><td> La URL del contenido integrable. </td> 		
+        </tr>
+        <tr>
+            <td> start	 </td><td> < ol> </td><td> Define el número inicial de la lista (si es diferente a 1)</td> 	
+        </tr>
+        <tr>
+            <td> style</td><td>Atributo Global </td><td>Define los estilos CSS que anulan los estilos establecidos previamente. </td> 		
+        </tr>
+        <tr>
+            <td> title </td><td> Atributo Global </td><td> Texto a ser mostrado cuando el cursor esté sobre el elemento. </td> 	
+        </tr>
+        <tr>
+            <td> width </td><td> < canvas>, < embed>, < iframe>, < img>, < input>, < object>, < video> </td><td> Para los elementos enumerados aquí, esto establece el ancho del elemento. </td> 	
+        <tr>
+            <td>  wrap </td><td> < textarea> </td><td> Indica la forma en la cual el texto debe ser envuelto. </td>	
+        </tr>
+    </table>
+    </div>
+    <p class="enlaces">Tomado de: Referencia de Atributos HTML. (2020). Retrieved 5 November 2020, from https://developer.mozilla.org/es/docs/Web/HTML/Atributos</p>
+<h2 class="atributo">Atributo "Class" con elementos de HTML5 </h2>
+<p>Podemos identificar un ejemplo de un atributo de la clase en la siguiente imagen:
+    <br> Es una etiqueta de tipo < button > correspondiente a un botón y se procede a añadir el atributo “class” con valor rojo (class=”rojo”).
+</p>
+<img class="imagatri" src="ImagenesIsa/atributos.png" alt="Atributo">
+
+<p class="enlaces">Imagen tomada de :https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.blogdephp.com%2Fel-atributo-class-en-html5%2F&psig=AOvVaw0W8MvkbZ2lWVW1gQ9e0GzI&ust=1604697056680000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjftcao7OwCFQAAAAAdAAAAABBC</p>
+
+
+<br><br> 
+
+<p class= "boton2"><a  href="conceptos01.html"> Anterior </a> </p>
+<footer class="en">
+    <div>
+        <br>
+        <img src="ImagenesIsa/logoUNAD.png" alt="UNAD">
+        <br>
+        <h6>Maria Isabel Forero Maldonado</h6>
+        <h6> Diseño de sitios web</h6>
+        <br>
+    </div>
+</footer>
+</body>
+</html>
